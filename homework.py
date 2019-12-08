@@ -2,10 +2,6 @@ name = 'Victoria'
 surname = 'Mkrtchyan'
 print(name +  surname)
 
-name = 'Victoria'
-surname = 'Mkrtchyan'
-print(name + surname)
-
 # Split string 'name' into list of characters
 def split(name):
     return list(name)
@@ -18,8 +14,8 @@ list_name = name.split()
 print(list_name)
 
 # Iterating using for loop
-for x in split(name):
-    print(x)
+for letter in split(name):
+    print(letter)
 
 # Split string 'surname' into list of characters
 def split(surname):
