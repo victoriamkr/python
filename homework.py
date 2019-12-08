@@ -12,6 +12,11 @@ def split(name):
 
 print(split(name))
 
+# or just
+list_name = name.split()
+
+print(list_name)
+
 # Iterating using for loop
 for x in split(name):
     print(x)
