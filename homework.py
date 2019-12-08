@@ -31,5 +31,5 @@ while i < length:
 
 a = list(surname)
 while a:
-    print(a.pop(0))
+    print(a.pop())
 
