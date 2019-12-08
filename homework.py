@@ -6,24 +6,20 @@ print(name +  surname)
 def split(name):
     return list(name)
 
-print(split(name))
-
-# or just
-list_name = name.split()
-
-print(list_name)
+print(list(name))
 
 # Iterating using for loop
-for letter in split(name):
+for letter in list(name):
     print(letter)
 
 # Split string 'surname' into list of characters
 def split(surname):
     return list(surname)
-print(split(surname))
+
+print(list(surname))
 
 # Getting length of list
-length = len(split(surname))
+length = len(list(surname))
 i = 0
 
 # Iterating using while loop
