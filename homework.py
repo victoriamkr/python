@@ -32,4 +32,3 @@ while i < length:
 a = list(surname)
 while a:
     print(a.pop())
-
