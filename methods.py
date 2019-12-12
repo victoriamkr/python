@@ -74,3 +74,26 @@ text = "This is text with one upper case"
 
 print(text.isupper())
 
+# enumerate letters list
+
+letters = ['V','I', 'C', 'T', 'O', 'R', 'I', 'A']
+
+for i,  letter in enumerate(letters):
+    print(i, letter)
+
+# zip lists together
+
+letters = ['V','I', 'C', 'T', 'O', 'R', 'I', 'A']
+nums = [1, 2, 3, 4, 5, 6, 7, 8]
+
+list = list(zip(['V','I', 'C', 'T', 'O', 'R', 'I', 'A'], [1, 2, 3, 4, 5, 6, 7, 8]))
+
+print(list)
+
+# make lowercase letters using a list comprehension
+
+letters = ['V','I', 'C', 'T', 'O', 'R', 'I', 'A']
+
+small_letters = [letter.lower() for letter in letters]
+
+print(small_letters)
