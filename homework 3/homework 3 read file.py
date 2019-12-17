@@ -3,7 +3,7 @@ def main():
     """Reading file steps.
 
     Step 1) Open the file in Read mode
-    Step 2) Use the mode function in the code to check that the file is in open mode.
+    Step 2) We use the mode function in the code to check that the file is in open mode.
     If yes, we proceed ahead.
     Step 3) Use f.read to read file data and store it in variable content.
     Step 4) print contents.
@@ -22,11 +22,11 @@ newstring1 = ""
 # Printing the character if a numeric
 # And adding character to new string if not numeric and printing
 
-for a in contents:
-    if (a.isdigit()) == True:
-        print(a)
+for char in contents:
+    if (char.isdigit()) == True:
+        print(char)
     else:
-        newstring1 += a
+        newstring1 += char
 
 print(newstring1)
 
