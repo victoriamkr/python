@@ -3,7 +3,7 @@ def main():
     """Reading file steps.
 
     Step 1) Open the file in Read mode
-    Step 2) We use the mode function in the code to check that the file is in open mode.
+    Step 2) Use the mode function in the code to check that the file is in open mode.
     If yes, we proceed ahead.
     Step 3) Use f.read to read file data and store it in variable content.
     Step 4) print contents.
