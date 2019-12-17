@@ -2,11 +2,11 @@ def main():
 
     """Reading file steps.
 
-    Step 1) Open the file in Read mode
-    Step 2) We use the mode function in the code to check that the file is in open mode.
-    If yes, we proceed ahead.
-    Step 3) Use f.read to read file data and store it in variable content.
-    Step 4) print contents.
+    Step 1) Opening the file in Read mode
+    Step 2) Using the mode function in the code to check that the file is in open mode.
+    If yes, proceed ahead.
+    Step 3) Using f.read to read file data and store it in variable content.
+    Step 4) Print contents.
     """
 
 f= open("homework 3.txt","r")
@@ -14,7 +14,7 @@ if f.mode == 'r':
     contents = f.read()
     print(contents)
 
-# Count numeric characters in a string
+# Print numeric characters from string
 
 newstring1 = ""
 
